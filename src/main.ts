@@ -1,5 +1,5 @@
 import Operator from "./operator";
-
+import Queue from './queue'
 enum Step {
   Operator = 1,
   Num1,
@@ -37,9 +37,17 @@ class Calculate extends Operator {
 class Main {
     stdin = process.openStdin();
 
+    
     constructor() {
+      // queue
+      const queue = new Queue<string>()
+      queue.push(1)
+      queue.push('data2')
+      queue.push(3)
+
       this.inputListener();
     }
+    
   
     private inputListener(): void {
       this.printMenuOperator();
