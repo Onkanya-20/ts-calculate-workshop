@@ -1,5 +1,4 @@
 class Queue<T> {
-
   private items: T[] = [];
 
   push(item: T): void {
@@ -13,7 +12,6 @@ class Queue<T> {
   show(): T[] {
     return this.items
   }
-
 }
 
 export default Queue
