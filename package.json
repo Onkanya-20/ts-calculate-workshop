@@ -1,0 +1,21 @@
+{
+  "name": "ts-calculator-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jedsada Tiwongvorakul <jedsada.t@20scoops.net>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node src/main.ts",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.1",
+    "jest": "^26.4.2",
+    "jest-mock-extended": "^1.0.10",
+    "ts-jest": "^26.4.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.3"
+  }
+}
