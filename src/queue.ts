@@ -6,12 +6,13 @@ class Queue<T> {
   }
 
   pop(): T | undefined {
-    return this.items.pop();
+    return this.items.shift();
   }
 
   show(): T[] {
     return this.items
   }
+
 }
 
 export default Queue
